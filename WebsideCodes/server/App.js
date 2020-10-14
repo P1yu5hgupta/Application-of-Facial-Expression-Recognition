@@ -1,0 +1,10 @@
+const express = require("express")
+const app = express()
+const cors = require("cors")
+const userRouter = require("./routes/userRoutes")
+const morgan = require("morgan")
+app.use(morgan("dev"))
+app.use(express.json())
+app.use(cors())
+app.use("/emotion-detector/user", userRouter)
+module.exports = app

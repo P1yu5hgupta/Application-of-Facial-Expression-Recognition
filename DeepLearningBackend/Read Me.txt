@@ -1,0 +1,15 @@
+vgg weights are missing as that is a large file.
+But you can download vgg_model_weights.h5 here before proceeding.
+
+
+Second things is FER2013.csv file for training the model which we have downloaded from kaggle. 
+So please refer to that place for downloading the fer2013 dataset.
+
+To run the program 
+
+1. Start the server using "npm run start"
+
+2. Go to DeepLearningBackend folder and type "python main.py webcam" in terminal
+
+3. To view data run the client side script and view your data by logging in to the wesite through your credentials.
+ 

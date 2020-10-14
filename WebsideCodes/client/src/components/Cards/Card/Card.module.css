@@ -1,0 +1,105 @@
+.card {
+  width:280px;
+  display: inline-block;
+  margin: 20px 20px;
+  box-shadow: 2px 2px 4px 4px rgba(37, 27, 27, 0.6);
+  transition: .25s;  
+  font-family: Alata;
+  z-index: 20;
+  position: relative;
+  border-radius: 10px;
+}
+
+.card:hover {
+  box-shadow: 2px 2px 4px 4px rgba(32, 2, 2, 0.2),
+  4px 4px 8px rgba(14, 5, 5, 0.2);
+}
+
+
+.cardHeader {
+  height: 150px;
+  width: 100%;
+  padding: 5px;
+  width:100%;
+  background-size:cover;
+  color:#fff;
+}
+
+.cardHeaderTitle {
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.cardBody {
+  padding: 7px;
+  background-color:#FFFFFF;
+  width:100%;
+}
+
+.date {
+  font-size: 15px;
+  font-weight: 600;
+  color: grey;
+}
+
+.bodyContent {
+  font-size: 13px;
+}
+
+.buttonPrimary {
+  border: none;
+  box-shadow: none;
+  font-family: inherit;
+  background-color:transparent;
+  color: $blue;
+  font-size: 15px;
+  transition:.25s;
+  
+  i{
+    padding-right:4px;
+  }
+}
+
+
+.designerLink {
+  color:#fff;
+  text-align:center;
+  font-size: 12px;
+  text-decoration: none;
+  display:block;
+}
+
+.bodyContentHappy {
+  font-size: 13px;
+  background-color: yellow;
+}
+
+.bodyContentSad {
+  font-size: 13px;
+  background-color: blue;
+}
+
+.bodyContentSurprised {
+  font-size: 13px;
+  background-color: #E96BA5;
+}
+
+.bodyContentNeutral {
+  font-size: 13px;
+  background-color: chartreuse;
+}
+
+.bodyContentFearfull {
+  font-size: 13px;
+  background-color: crimson;
+}
+
+.bodyContentDisgust {
+  font-size: 13px;
+  background-color: #B5A82C;
+}
+
+.bodyContentAngry{
+  font-size: 13px;
+  background-color: #963232;
+}

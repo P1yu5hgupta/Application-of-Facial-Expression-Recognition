@@ -1,0 +1,22 @@
+.Button, :visited, :focus{
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  display: inline-block;
+  border-radius: 10rem;
+  transition: all .2s;
+  position: relative;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  font-family: 'Alata', sans-serif;
+  font-size: 15px;
+}
+.Auth{
+  background-color: white;
+}
+.Submit{
+  background-color: black;
+  color: white;
+  width: 100%;
+}

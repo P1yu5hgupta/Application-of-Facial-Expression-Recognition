@@ -1,0 +1,15 @@
+.ProjectDesc{
+  width: 20%;
+  height: 80%;
+  font-family: Alata;
+  border: solid 4px #F1F1F1;
+  color: #b7b2b2;
+  border-radius: 10px;
+  margin: 50px;
+  position: fixed;
+  left: 20px;
+  top: 20px;
+}
+.Item{
+  margin: 10px;
+}

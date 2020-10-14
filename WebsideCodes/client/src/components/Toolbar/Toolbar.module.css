@@ -1,0 +1,12 @@
+.Toolbar{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  width: 100%;
+  height: 10%;
+  background-color: black;
+}
+
+.Toolbar > div{
+  margin: 0 20px;
+}
